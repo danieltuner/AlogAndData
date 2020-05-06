@@ -4,7 +4,7 @@ namespace part1
   {
     public int Sum(int x)
     {
-      return 01;
+      return 1;
     }
   }
 }
