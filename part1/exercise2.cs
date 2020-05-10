@@ -24,13 +24,14 @@ namespace part1
           result++;
           three = 0;
         }
-        return result;
+        
       }
+      return result;
       // how many times is b in a
 
       /*
       amountOfHits = 0
-      for character in a, until a.Length-b.Legth
+      for character in a, until a.Length-b.Length
         if character == b index =
           if a in next index == b in next index
             until b ends
