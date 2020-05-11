@@ -13,16 +13,16 @@ namespace part1
 
       for (int i = 0; i <= one - two; i++)
       {
-        int three;
-        for (three = 0; three < two; three++)
-          if (a[i + three] !=b[three])
+        int j;
+        for (j = 0; j < two; j++)
+          if (a[i + j] !=b[j])
           {
             break;
           }
-        if (three == two)
+        if (j == two)
         {
           result++;
-          three = 0;
+          j = 0;
         }
         
       }
