@@ -1,11 +1,11 @@
 using System;
-using System.Collections.Generic;
+using System.Text.RegularExpressions;
 
 namespace part1
 {
   public class Substrings
   {
-    /*public int Calculate(string a, string b)
+    public int Calculate(string a, string b)
     {
       int one = a.Length;
       int two = b.Length;
@@ -14,12 +14,12 @@ namespace part1
       for (int i = 0; i <= one - two; i++)
       {
         int three;
-        for (three = 0;three < one; three++)
-          if (b[i + three] !=a[three])
+        for (three = 0;three < two; three++)
+          if (a[i + three] !=b[three])
           {
             break;
           }
-        if (three == one)
+        if (three == two)
         {
           result++;
           three = 0;
@@ -36,8 +36,8 @@ namespace part1
           if a in next index == b in next index
             until b ends
             amountOfHits++
-      return the amountOfHits
+      return the amountOfHits */
       
-    } */
+    } 
   }
 }
