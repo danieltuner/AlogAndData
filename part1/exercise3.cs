@@ -1,5 +1,5 @@
 using System;
-
+using System.Collections.Generic;
 namespace part1
 {
   public class Tables
@@ -13,14 +13,15 @@ namespace part1
       else
       {
         int[] newArray = new int [t.Length -1];
-        {        
-          for (int i = 0; i < t.Length - 1; i++)
-          {
-            newArray[i] = t[i] + t[i + 1];
-          }
+               
+        for (int i = 0; i < t.Length - 1; i++)
+        {
+          newArray[i] = t[i] + t[i + 1];
         }
+        
+        return Calculate(newArray);
       }
-      return Calculate(newArrey);
+      
     }
   }
 }
