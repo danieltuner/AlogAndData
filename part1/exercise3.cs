@@ -12,13 +12,15 @@ namespace part1
       }
       else
       {
-        int[] newArray = new int[t.Length -1];
-        for (int i = 0; i < t.Length - 1; i++)
-        {
-          newArray[i] = t[i] + t[i + 1];
+        int[] newArray = new int [t.Length -1];
+        {        
+          for (int i = 0; i < t.Length - 1; i++)
+          {
+            newArray[i] = t[i] + t[i + 1];
+          }
         }
       }
-      return Calculate(newArray);
+      return Calculate(newArrey);
     }
   }
 }
