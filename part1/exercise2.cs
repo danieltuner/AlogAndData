@@ -5,7 +5,7 @@ namespace part1
 {
   public class Substrings
   {
-    public int Calculate(string a, string b)
+    /*public int Calculate(string a, string b)
     {
       int one = a.Length;
       int two = b.Length;
@@ -37,7 +37,7 @@ namespace part1
             until b ends
             amountOfHits++
       return the amountOfHits
-      */
-    }
+      
+    } */
   }
 }
