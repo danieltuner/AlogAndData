@@ -14,7 +14,7 @@ namespace part1
       for (int i = 0; i <= one - two; i++)
       {
         int three;
-        for (three = 0;three < two; three++)
+        for (three = 0; three < two; three++)
           if (a[i + three] !=b[three])
           {
             break;
