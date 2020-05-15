@@ -8,7 +8,7 @@ namespace part2
     {
         static void Main(string[] args)
         {
-            TimeEfficiency timeEfficiency = new TimeEfficiency();
+            /*TimeEfficiency timeEfficiency = new TimeEfficiency();
 
             string input10 = timeEfficiency.CreateInput(10);
             string input100 = timeEfficiency.CreateInput(100);
@@ -23,7 +23,13 @@ namespace part2
             DateTime start2 = DateTime.Now;
             timeEfficiency.On(input10);
     	    DateTime end2 = DateTime.Now;
-            Console.WriteLine("Fast time: " + end2.Subtract(start2));
+            Console.WriteLine("Fast time: " + end2.Subtract(start2));*/
+
+            LongestRepetition p = new LongestRepetition();
+            Console.WriteLine(p.Calculate(new int[] { 1, 2, 1, 1, 2 })); // 2
+            Console.WriteLine(p.Calculate(new int[] { 1, 2, 3, 4, 5 })); // 1
+            Console.WriteLine(p.Calculate(new int[] { 1, 1, 1, 1, 1 })); // 5
+
         }
     }
 }
