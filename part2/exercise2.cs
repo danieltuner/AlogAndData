@@ -8,7 +8,7 @@ namespace part2
     {
         public int Calculate(int[] t)
         {
-            int repetition = 0;
+            int repetition = 1;
             for (int i = t[0]; i < t.Length -1; i++)
             {
                 if (t[i] == t[i-1])
