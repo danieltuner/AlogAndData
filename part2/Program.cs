@@ -17,11 +17,11 @@ namespace part2
                        
             
             DateTime start = DateTime.Now;
-            timeEfficiency.On2(input10000);
+            timeEfficiency.On2(input10);
             DateTime end = DateTime.Now;
             Console.WriteLine("Slow time: " + end.Subtract(start));
             DateTime start2 = DateTime.Now;
-            timeEfficiency.On(input10000);
+            timeEfficiency.On(input10);
     	    DateTime end2 = DateTime.Now;
             Console.WriteLine("Fast time: " + end2.Subtract(start2));
         }

@@ -19,7 +19,7 @@ namespace part2
                     }
                 }
             }
-            Console.WriteLine(counter);   
+            Console.WriteLine("Hits: " + counter);   
         }
         public void On(string n)
         {
@@ -36,7 +36,7 @@ namespace part2
                     counter = counter + zeros;
                 }
             }
-            Console.WriteLine(counter);
+            Console.WriteLine("Hits: " + counter);
 
         }
         public string CreateInput(int n)
