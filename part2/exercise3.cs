@@ -14,10 +14,15 @@ namespace part2
                 if (t[i] == t[i-1])
                 {                    
                     change++;
-                    t[i] = t[i-1] + t[i+1];
+                    t[i] = t[i-1] + t[i+1] +1;
+                }
+                if (t[i] == t[i-1])
+                {
+                    change++;
                 }
             }
             return change;
+            
         }
         
             
