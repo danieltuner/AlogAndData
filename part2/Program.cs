@@ -24,11 +24,17 @@ namespace part2
             timeEfficiency.On(input10);
     	    DateTime end2 = DateTime.Now;
             Console.WriteLine("Fast time: " + end2.Subtract(start2));*/
-
+            /*
             LongestRepetition p = new LongestRepetition();
             Console.WriteLine(p.Calculate(new int[] { 1, 2, 1, 1, 2 })); // 2
             Console.WriteLine(p.Calculate(new int[] { 1, 2, 3, 4, 5 })); // 1
-            Console.WriteLine(p.Calculate(new int[] { 1, 1, 1, 1, 1 })); // 5
+            Console.WriteLine(p.Calculate(new int[] { 1, 1, 1, 1, 1 })); // 5 */
+
+            Changes m = new Changes();
+            Console.WriteLine(m.Calculate(new int[] { 1, 1, 2, 2, 2 })); // 2
+            Console.WriteLine(m.Calculate(new int[] { 1, 2, 3, 4, 5 })); // 0
+            Console.WriteLine(m.Calculate(new int[] { 1, 1, 1, 1, 1 })); // 2
+
 
         }
     }
