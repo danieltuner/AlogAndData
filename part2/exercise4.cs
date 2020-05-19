@@ -9,13 +9,18 @@ namespace part2
         public int Calculate(int[] t)
         {       
             int NrOfRuns = 0;
+            int counter = 1;
             for (int i = 1; i <= t.Length; i++)
             {
-                for (int j = 0; j <= t.Length; j++)
+                for (int j = 0; j <= t.Length -1; j++)
                 {
-                    if (t[i] == NrOfRuns)
+                    if (t[j] == counter)
                     {
-                        NrOfRuns++;
+                        counter++;
+                        if (counter == t.Length +1)
+                        {
+                            NrOfRuns = i;
+                        }
                     }
                 }
             }
