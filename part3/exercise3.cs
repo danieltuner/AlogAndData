@@ -6,7 +6,7 @@ namespace part3
     {
         public void MergeSort(int[] t)
         {
-
+            int 
 
 
 
@@ -22,7 +22,25 @@ namespace part3
 
         public void QuickSort(int[] t)
         {
-            
+            int high, low;
+            int pivot = t[high];
+            for (int j = low; j < high; j++)
+            {
+                if (t[j] < pivot)
+                {
+                    i++;
+                    int temp = t[i];
+                    t[i] = t[j];
+                    t[j] = temp;
+                }
+            }
+            int temp1 = t[i+1];
+            t[i+1] = t[high];
+            t[high] = temp1;
+
+            return i +1;
+
+
 /*
 sort(a, b)
   if a >= b
