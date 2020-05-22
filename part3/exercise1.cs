@@ -2,9 +2,9 @@ using System;
 
 namespace part3
 {
-     public class Hello
+     public class PrintHello
     {
-        public int Hello(int n)
+        public void Hello(int n)
         {
             if (n == 0)
             {

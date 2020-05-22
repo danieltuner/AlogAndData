@@ -8,7 +8,8 @@ namespace part3
     {
         static void Main(string[] args)
         {
-            Hello(5);
+            PrintHello printhello = new PrintHello();
+            printhello.Hello(5);
 
            /* public static int[] Randomizer(int n)
             {
