@@ -19,8 +19,9 @@ namespace part3
                     // integers between 1 and 1000 are enough for us
                     arr[i] = random.Next(1, 1001);
                 }
-                return arr; */
+                return arr;
             }
+             */
 
         }
     }
