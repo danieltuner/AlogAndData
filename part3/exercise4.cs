@@ -6,6 +6,7 @@ namespace part3
     {
         public bool Find(int[] t, int x)
         {
+            Array.Sort(t);
             int a = 0;
             int b = t.Length - 1;
             int k;
