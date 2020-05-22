@@ -22,6 +22,8 @@ namespace part3
 
         public void QuickSort(int[] t)
         {
+            DateTime start = DateTime.Now;
+
             int high, low;
             int pivot = t[high];
             for (int j = low; j < high; j++)
@@ -39,6 +41,9 @@ namespace part3
             t[high] = temp1;
 
             return i +1;
+
+            DateTime end = DateTime.Now;
+            Console.WriteLine("Time this took: " + end.Subtract(start))
 
 
 /*
