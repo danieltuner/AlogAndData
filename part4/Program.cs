@@ -16,11 +16,13 @@ namespace part4
             Console.WriteLine(myLinks.GetNode(0)); // 1
             Console.WriteLine(myLinks.GetNode(1)); // 3
 
-            /*
+            Console.WriteLine();
             CircleGame g = new CircleGame();
             Console.WriteLine(g.Last(7)); // 7
             Console.WriteLine(g.Last(4)); // 1
             Console.WriteLine(g.Last(123)); // 119
+
+             /*
             SmallestDistance s = new SmallestDistance();
             s.Add(3);
             s.Add(8);
