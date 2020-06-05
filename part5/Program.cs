@@ -14,7 +14,7 @@ namespace part5
             c.AddConnection(5, 6);
             Console.WriteLine(c.Calculate(1)); // 3
 
-            /*
+            
             Components k = new Components(6);
             k.AddConnection(1, 2);
             k.AddConnection(2, 3);
@@ -22,7 +22,7 @@ namespace part5
             k.AddConnection(3, 4);
             k.AddConnection(5, 6);
             Console.WriteLine(k.Calculate()); // 2
-
+            /*
             Communication com = new Communication(6);
             com.AddConnection(1, 2);
             com.AddConnection(2, 3);
