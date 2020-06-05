@@ -13,13 +13,13 @@ namespace part5
         public Connectivity(int n)
         {
            this.n = n;
-           
+           this.visited = new List<int>();
            this.graph = new List<int>[n + 1];
            for (int i = 1; i <= n; i++)
            {
                graph[i] = new List<int>();
            }
-           this.visited = new List<int>(); 
+            
         }
 
         public void AddConnection(int a, int b)
