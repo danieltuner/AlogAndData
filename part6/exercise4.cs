@@ -1,9 +1,9 @@
-using System;
+ /*using System;
 using System.Collections.Generic;
 
 namespace part6
-{
-    public class ShortestPath
+ /*{
+   public class ShortestPath
     {
         public int n;
         public ShortestPath(int n)
@@ -21,4 +21,4 @@ namespace part6
 
         }
     }
-}
+}*/
