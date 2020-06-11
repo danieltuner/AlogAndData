@@ -21,3 +21,9 @@ namespace part6
         }
     }
 }
+/*
+for k = 1 to n
+  for i = 1 to n
+    for j = 1 to n
+      distance[i,j] = min(distance[i,j], distance[i,k]+distance[k,j])
+*/

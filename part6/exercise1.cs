@@ -25,3 +25,15 @@ namespace part6
         }
     }
 }
+/*
+while true
+  change = false
+  for edge in edges
+    current = distance[edge.end]
+    new = distance[edge.source]+edge.weight
+    if new < current
+      distance[edge.end] = new
+      change = true
+  if not change
+    break
+*/
