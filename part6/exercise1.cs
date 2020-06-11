@@ -51,7 +51,7 @@ namespace part6
 
                     if (newCurrent < current)
                     {
-                        distance[i-end] = newCurrent;
+                        distance[i.end] = newCurrent;
                         change = true;
                     }
                 }
