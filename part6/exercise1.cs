@@ -10,7 +10,6 @@ namespace part6
         {
             this.n = n;
             this.edges = new List<Edge>();
-
         }
 
         public void AddRoad(int a, int b, int d)
