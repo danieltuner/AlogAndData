@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace part6
 {
@@ -15,9 +16,9 @@ namespace part6
 
         }
 
-        public int Calculate(int x, int y)
+        List<int> Create(int x, int y)
         {
-            return 0;
+
         }
     }
 }
