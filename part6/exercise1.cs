@@ -2,7 +2,7 @@ using System;
 
 namespace part6
 {
-    public class ShortestPath
+    public class BellmanFord
     {
         public int n;
         public ShortestPath(int n)
