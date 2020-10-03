@@ -2,8 +2,11 @@ using System;
 
 namespace Examprep
 {
-    public class ex3
+    public class Rooms
     {
-
+        int Calculate(int[,] input)
+        {
+            
+        }
     }
 }

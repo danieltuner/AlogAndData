@@ -2,8 +2,11 @@ using System;
 
 namespace Examprep
 {
-    public class ex2
+    public class ShortenArray
     {
-
+        int Calculate(int[] input)
+        {
+            
+        }  
     }
 }
