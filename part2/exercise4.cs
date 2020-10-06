@@ -8,7 +8,28 @@ namespace part2
     {
         public int Calculate(int[] t)
         {       
-            int NrOfRuns = 0;
+           int rev = 0;
+            int search = 1;
+
+            while (true)
+            {
+                for (int i = 0; i < t.Length; i++)
+                {
+                    if (t[i] == search)
+                    {
+                        search++;
+                    }
+
+                }
+                rev++;
+                if (search > t.Length)
+                {
+                    break;
+                }
+            }
+            return rev;
+           
+            /*int NrOfRuns = 0;
             int counter = 1;
             for (int i = 1; i <= t.Length; i++)
             {
@@ -24,7 +45,7 @@ namespace part2
                     }
                 }
             }
-            return NrOfRuns;
+            return NrOfRuns;*/
         }
         
             

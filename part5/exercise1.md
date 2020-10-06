@@ -12,7 +12,7 @@
 >Both
 
 5. Is there a cycle in the graph?
->Only depth-first search
+>Both
 
 6. Is the graph a tree?
 >Both
